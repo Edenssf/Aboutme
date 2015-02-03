@@ -1,0 +1,19 @@
+img {
+	border: 2px solid black;
+	vertical-align: text-top;
+	height: 300px; width: 200px;
+}
+h1 {
+	text-align: center;
+	font-family: cursive;
+}
+p {
+	text-align: center;
+	font-family: cursive;
+}
+body {
+	text-align: center;
+}
+h3 {
+	font-family: cursive;
+}
