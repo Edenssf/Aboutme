@@ -2,6 +2,7 @@ h1 {
 	text-align: center;
 	color: white;
 	font-family: Century Gothic, Helvetica;
+	font-size: 50px;
 }
 p {
 	padding-left: 65px;
@@ -11,7 +12,10 @@ h3 {
 	padding-left: 115px;
 	font-family: Century Gothic, Helvetica;
 }
+a {
+	float: right;
 
+}
 
 #name {
 	background-color: black;
@@ -20,6 +24,7 @@ h3 {
 	height: 55px;
 	width: 1200px;
 	margin: auto;
+	padding-bottom: 50px;
 }
 #contact {
 	float: right;
@@ -29,16 +34,22 @@ h3 {
 	float: right;
 	padding-right: 165px;
 }
+
 #education {
 	width: 500px;
-	padding-left: 100px;
-	
+	margin-left: 100px;
+	border-bottom: 1px solid black;
+	padding-left: -120px;
+
 }
 #work {
 	width: 500px;
-	padding-left: 100px;
+	margin-left: 100px;
+	border-bottom: 1px solid black;
+	padding-left: -120px;
 }
 #interests {
 	width: 500px;
-	padding-left: 100px;
-}
+	margin-left: 100px;
+	border-bottom: 1px solid black;
+	padding-left: -120px;
