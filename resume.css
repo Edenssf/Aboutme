@@ -1,0 +1,44 @@
+h1 {
+	text-align: center;
+	color: white;
+	font-family: Century Gothic, Helvetica;
+}
+p {
+	padding-left: 65px;
+	font-family: Century Gothic, Helvetica;
+}
+h3 {
+	padding-left: 115px;
+	font-family: Century Gothic, Helvetica;
+}
+
+
+#name {
+	background-color: black;
+	border: 2px solid black;
+	border-radius: 5px;
+	height: 55px;
+	width: 1200px;
+	margin: auto;
+}
+#contact {
+	float: right;
+	padding-right: 200px;
+}
+#skills {
+	float: right;
+	padding-right: 165px;
+}
+#education {
+	width: 500px;
+	padding-left: 100px;
+	
+}
+#work {
+	width: 500px;
+	padding-left: 100px;
+}
+#interests {
+	width: 500px;
+	padding-left: 100px;
+}
