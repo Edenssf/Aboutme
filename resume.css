@@ -14,9 +14,15 @@ h3 {
 }
 a {
 	float: right;
+	text-decoration: none; 
+	color: black; 
+	font-family: Century Gothic, Helvetica, cursive; 
+	font-size: 16px;
 }
-
-#name {
+a:hover {
+	color: red;
+}
+.name {
 	background-color: black;
 	border: 2px solid black;
 	border-radius: 5px;
@@ -25,22 +31,22 @@ a {
 	margin: auto;
 	padding-bottom: 50px;
 }
-#contact {
+.contact {
 	float: right;
 	padding-right: 200px;
 }
-#skills {
+.skills {
 	float: right;
 	padding-right: 165px;
 }
 
-#education, #work {
+.education, .work {
 	width: 500px;
 	margin-left: 100px;
 	border-bottom: 1px solid black;
 	padding-left: -120px;
 }
-#interests {
+.interests {
 	width: 500px;
 	margin-left: 100px;
 }

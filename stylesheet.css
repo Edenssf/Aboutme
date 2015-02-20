@@ -1,39 +1,36 @@
-img {
-	border: 2px solid black;
-	vertical-align: text-top;
-	height: 300px; width: 200px;
-}
-h1 {
-	font-family: Helvetica, cursive;
-}
-p {
-	font-family: 'Open-Sans', Helvetica, cursive;
-}
-body {
-	font-family: 'Open-Sans', Helvetica, cursive;
-	
-}
-h3 {
-	font-family: 'Open-Sans', Helvetica,  cursive;
-	padding-left: 50px;
-}
 a {
 	text-decoration: none; 
 	color: black; 
-	font-family: Helvetica, cursive; 
+	font-family: Century Gothic, Helvetica, cursive; 
 	font-size: 16px;
-	
 }
-a:hover{
+img {
+	vertical-align: center;
+	margin-left: 50px;
+	height: 300px; width: 200px;
+	margin-top: 20px;
+}
+h1 {
+	font-family: Century Gothic, Helvetica, cursive;
+	font-size: 55px;
+	border-bottom: 1px solid black;
+}
+body {
+	font-family: Century Gothic, Helvetica, cursive;
+}
+a:hover {
 	color: red;
 }
-.contact {
+.facts {
 	text-align: center;
-	
+	width: 300px;
+	float: right;
+	margin-top: 50px;
+	margin-right: 775px;
 }
-div {
-	text-align: center;
-	width: 650px;
+.bottom {
+	border-bottom: 1px solid black;
+	padding-top: 75px;
 }
 
 
