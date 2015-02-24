@@ -31,24 +31,20 @@ a:hover {
 	margin: auto;
 	padding-bottom: 50px;
 }
-.contact {
+.contact, .skills {
 	float: right;
 	padding-right: 200px;
 	clear: both;
 }
 .skills {
-	float: right;
 	padding-right: 165px;
-	clear: both;
 }
 
 .education, .work {
-	width: 500px;
-	margin-left: 100px;
 	border-bottom: 1px solid black;
 	padding-left: -120px;
 }
-.interests {
+.interests, .education, .work {
 	width: 500px;
 	margin-left: 100px;
 }
