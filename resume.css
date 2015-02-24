@@ -34,10 +34,12 @@ a:hover {
 .contact {
 	float: right;
 	padding-right: 200px;
+	clear: both;
 }
 .skills {
 	float: right;
 	padding-right: 165px;
+	clear: both;
 }
 
 .education, .work {

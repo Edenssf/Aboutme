@@ -6,14 +6,15 @@ a {
 }
 img {
 	vertical-align: center;
-	margin-left: 50px;
+	margin-left: 400px;
 	height: 300px; width: 200px;
 	margin-top: 20px;
+	clear: both;
 }
 h1 {
 	font-family: Century Gothic, Helvetica, cursive;
 	font-size: 55px;
-	border-bottom: 1px solid black;
+	text-align: center;
 }
 body {
 	font-family: Century Gothic, Helvetica, cursive;
@@ -24,12 +25,17 @@ a:hover {
 .facts {
 	text-align: center;
 	width: 300px;
-	float: right;
 	margin-top: 50px;
-	margin-right: 775px;
+	float: right;
+	margin-right: 400px;
+}
+.top, .bottom {
+	border-bottom: 1px solid black;
+	clear: both;
+	width: 800px;
+	margin: auto;
 }
 .bottom {
-	border-bottom: 1px solid black;
 	padding-top: 75px;
 }
 
