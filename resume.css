@@ -33,11 +33,9 @@ a:hover {
 }
 .contact, .skills {
 	float: right;
-	padding-right: 200px;
 	clear: both;
 }
 .skills {
-	padding-right: 165px;
 }
 
 .education, .work {
@@ -46,5 +44,16 @@ a:hover {
 }
 .interests, .education, .work {
 	width: 500px;
-	margin-left: 100px;
+}
+.right-container {
+	float: right;
+	width: 400px;
+}
+.left-container {
+	float: left;
+	width: 500px;
+}
+.main-container{
+	margin: auto;
+	width: 1000px;
 }

@@ -6,10 +6,9 @@ a {
 }
 img {
 	vertical-align: center;
-	margin-left: 400px;
 	height: 300px; width: 200px;
 	margin-top: 20px;
-	clear: both;
+	float: left;
 }
 h1 {
 	font-family: Century Gothic, Helvetica, cursive;
@@ -27,7 +26,6 @@ a:hover {
 	width: 300px;
 	margin-top: 50px;
 	float: right;
-	margin-right: 400px;
 }
 .top, .bottom {
 	border-bottom: 1px solid black;
@@ -37,6 +35,10 @@ a:hover {
 }
 .bottom {
 	padding-top: 75px;
+}
+.container {
+	margin: auto;
+	width: 500px;
 }
 
 
