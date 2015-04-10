@@ -4,6 +4,9 @@ h1 {
 	font-family: Century Gothic, Helvetica;
 	font-size: 50px;
 }
+body {
+	background-color: #faf2c4;
+}
 p {
 	padding-left: 65px;
 	font-family: Century Gothic, Helvetica;
@@ -19,9 +22,6 @@ a {
 	font-family: Century Gothic, Helvetica, cursive; 
 	font-size: 16px;
 }
-a:hover {
-	color: red;
-}
 .name {
 	background-color: black;
 	border: 2px solid black;
@@ -31,13 +31,11 @@ a:hover {
 	margin: auto;
 	padding-bottom: 50px;
 }
+
 .contact, .skills {
 	float: right;
 	clear: both;
 }
-.skills {
-}
-
 .education, .work {
 	border-bottom: 1px solid black;
 	padding-left: -120px;
@@ -56,4 +54,8 @@ a:hover {
 .main-container{
 	margin: auto;
 	width: 1000px;
+	height: 1000px;
+	background-color: #cdcbcb;
+	opacity: 0.9;
 }
+
