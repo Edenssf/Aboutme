@@ -31,11 +31,6 @@ a {
 	margin: auto;
 	padding-bottom: 50px;
 }
-
-.contact, .skills {
-	float: right;
-	clear: both;
-}
 .education, .work {
 	border-bottom: 1px solid black;
 	padding-left: -120px;
