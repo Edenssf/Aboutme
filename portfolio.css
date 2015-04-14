@@ -5,6 +5,14 @@
 a {
 	color: black;
 }
+body {
+	font-family: Century Gothic, Helvetica, cursive;
+	background-repeat: no-repeat;
+	background-size: relative;
+	background-attachment: fixed;
+	background-position: center;
+	background-color: black;
+}
 h1, .nav-list {
 	text-align: center;
 }
@@ -31,5 +39,9 @@ a:hover {
 	color: white;
 }
 .header{
+	text-align: center;
+}
+.content {
+	margin: auto;
 	text-align: center;
 }

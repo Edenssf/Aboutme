@@ -34,7 +34,7 @@
 body {
 	font-family: Century Gothic, Helvetica, cursive;
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-size: relative;
 	background-attachment: fixed;
 	background-position: center;
 	background-color: black;

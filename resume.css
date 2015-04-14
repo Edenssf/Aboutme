@@ -1,11 +1,14 @@
+body {
+	font-family: Century Gothic, Helvetica, cursive;
+	background-size: relative;
+	background-attachment: fixed;
+	background-position: center;
+}
 h1 {
 	text-align: center;
 	color: white;
 	font-family: Century Gothic, Helvetica;
 	font-size: 50px;
-}
-body {
-	background-color: #faf2c4;
 }
 p {
 	padding-left: 65px;
@@ -38,6 +41,9 @@ a {
 .interests, .education, .work {
 	width: 500px;
 }
+.interests {
+	height: 500px;
+}
 .right-container {
 	float: right;
 	width: 400px;
@@ -46,10 +52,11 @@ a {
 	float: left;
 	width: 500px;
 }
-.main-container{
-	margin: auto;
+.main-container {
+	margin-left: auto;
+	margin-right: auto;
 	width: 1000px;
-	height: 1000px;
+	height: 1100px;
 	background-color: #cdcbcb;
 	opacity: 0.9;
 }
