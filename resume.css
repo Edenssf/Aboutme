@@ -1,5 +1,6 @@
 body {
 	font-family: Century Gothic, Helvetica, cursive;
+	background-image: url("https://40.media.tumblr.com/464d161e4b51b4da63fc5007f73cb906/tumblr_nmk4rzxDP81tkwfmho1_540.jpg");
 	background-size: relative;
 	background-attachment: fixed;
 	background-position: center;
@@ -19,9 +20,8 @@ h3 {
 	font-family: Century Gothic, Helvetica;
 }
 a {
-	float: right;
 	text-decoration: none; 
-	color: black; 
+	color: red; 
 	font-family: Century Gothic, Helvetica, cursive; 
 	font-size: 16px;
 }
@@ -33,6 +33,23 @@ a {
 	width: 1200px;
 	margin: auto;
 	padding-bottom: 50px;
+}
+.navbar {
+	text-align: center;
+}
+.nav-item {
+	display: inline;
+	padding: 10px;
+	transition: background-color .3s ease-in, color .3s;
+}
+.nav-item:hover {
+	color: white;
+	border: 1px solid black;
+	border-radius: 5px;
+	background-color: black;
+}
+.nav-item a:hover {
+	color: white;
 }
 .education, .work {
 	border-bottom: 1px solid black;
@@ -59,5 +76,7 @@ a {
 	height: 1100px;
 	background-color: #cdcbcb;
 	opacity: 0.9;
+	border: 1px solid #cdcbcb;
+	border-radius: 1%
 }
 
