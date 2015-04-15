@@ -52,8 +52,9 @@ h1 {
 }
 li {
 	text-decoration: none;
+	list-style-type: none;
 }
-ul {
+.navbar, .facts {
 	text-align: center;
 }
 .nav-item {
@@ -70,8 +71,18 @@ ul {
 .nav-item a:hover {
 	color: white;
 }
-@media (min-width: 1241px;){
-
+.facts {
+	text-align: center;
+	height: 150px;
+	width: 300px;
+	background-color: gray;
+	font-size: 18px;
+	margin: auto;
+	opacity: 0.9;
+	border: 1px solid gray;
+	border-radius: 5%
 }
+
+
 
 
