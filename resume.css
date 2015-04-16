@@ -53,7 +53,7 @@ a {
 
 @media (min-width: 1024px) {
 	.headline {
-		font-size: 64px;
+		font-size: 55px;
 	}
 }
 @media (min-width: 1024px) {
@@ -84,28 +84,24 @@ a {
 }
 .portfolio-link--percent {
 
-	width: 75%;
+	width: 80%;
 	height: 500px;
 	margin: 50% auto;
 	background: #d8d8d8;
 	display: block;	
 	opacity: 0.9;
-	border: 1px solid gray;
+	border: 1px solid #d8d8d8;
 	border-radius: 8%;
-	text-align: center;
+	text-align: left;
 }
 
 @media (min-width: 768px) {
 	.portfolio-link--percent {
 	
-		width: 43.14381271%;
-		height: 180px;
+		width: 200px;
+		height: 500px;
 		float: left;
 		margin: 3.412969283%;
-		opacity: 0.9;
-		border: 1px solid gray;
-		border-radius: 8%;
-		text-align: center;
 	}
 }
 
@@ -115,10 +111,6 @@ a {
 		width: 29.26829268%;
 		height: 500px;
 		margin: 2.032520325%;
-		opacity: 0.9;
-		border: 1px solid gray;
-		border-radius: 8%;
-		text-align: center;
 	}	
 }
 
