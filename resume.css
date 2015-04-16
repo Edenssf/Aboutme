@@ -3,13 +3,6 @@
 	-moz-box-sizing: border-box;    
 	box-sizing: border-box;         	
 }
-
-.group:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
 body {
 	font-size: 100%;
 	background-image: url("https://40.media.tumblr.com/464d161e4b51b4da63fc5007f73cb906/tumblr_nmk4rzxDP81tkwfmho1_540.jpg");
@@ -44,6 +37,23 @@ a {
 .nav-item a:hover {
 	color: white;
 }
+.portfolio-list--percent {
+	list-style-type: none;
+	margin: 0 auto;
+	padding: 0;
+}
+.portfolio-link--percent {
+
+	width: 80%;
+	height: 500px;
+	margin: 50% auto;
+	background: #d8d8d8;
+	display: block;	
+	opacity: 0.9;
+	border: 1px solid #d8d8d8;
+	border-radius: 8%;
+	text-align: left;
+}
 
 @media (min-width: 768px) {
 	.headline {
@@ -61,13 +71,6 @@ a {
 		font-size: 64px;
 	}
 }
-
-.portfolio-list--percent {
-	list-style-type: none;
-	margin: 0 auto;
-	padding: 0;
-}
-
 @media (min-width: 768px) {
 	.portfolio-list--percent {
 		
@@ -82,19 +85,6 @@ a {
 		max-width: 1200px;
 	}	
 }
-.portfolio-link--percent {
-
-	width: 80%;
-	height: 500px;
-	margin: 50% auto;
-	background: #d8d8d8;
-	display: block;	
-	opacity: 0.9;
-	border: 1px solid #d8d8d8;
-	border-radius: 8%;
-	text-align: left;
-}
-
 @media (min-width: 768px) {
 	.portfolio-link--percent {
 	
